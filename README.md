@@ -47,7 +47,7 @@ O projeto utiliza uma paleta de cores "quente" e suave para reduzir a fadiga vis
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Linguagem:** Java 17+
+* **Linguagem:** Java 21
 * **Biblioteca Gráfica:** Swing / AWT
 * **Arquitetura:** Programação Orientada a Objetos (POO)
 * **Gestão de Projeto:** Quadro Kanban (Trello)
