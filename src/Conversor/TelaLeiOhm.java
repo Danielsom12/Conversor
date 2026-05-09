@@ -124,7 +124,7 @@ public class TelaLeiOhm extends JFrame {
         txtAreaResultadoLeiOhm.setBackground(COR_FUNDO); 
         txtAreaResultadoLeiOhm.setEditable(false); // Impede que o usuário digite no resultado
         txtAreaResultadoLeiOhm.setFont(new Font("Dialog", Font.BOLD, 28));
-        txtAreaResultadoLeiOhm.setBounds(300, 399, 600, 180);
+        txtAreaResultadoLeiOhm.setBounds(300, 350, 600, 235);
         contentPane.add(txtAreaResultadoLeiOhm);
 
         // --- BOTÕES ---
