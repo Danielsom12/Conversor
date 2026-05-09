@@ -196,7 +196,7 @@ public class Tela extends JFrame {
         JLabel lblLogo = new JLabel("");
         try {
             ImageIcon originalIcon = new ImageIcon("/home/dan/eclipse-workspace/src/Conversor/logo_S&B_Convert.png");
-            Image scaledImage = originalIcon.getImage().getScaledInstance(250, 120, Image.SCALE_SMOOTH);
+            Image scaledImage = originalIcon.getImage().getScaledInstance(200, 150, Image.SCALE_SMOOTH);
             lblLogo.setIcon(new ImageIcon(scaledImage));
         } catch (Exception e) {
             System.out.println("Logo não encontrada.");
