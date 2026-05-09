@@ -56,7 +56,7 @@ O projeto utiliza uma paleta de cores "quente" e suave para reduzir a fadiga vis
 
 ## ⚙️ Como Executar
 
-1. Certifique-se de ter o **JDK 17** ou superior instalado.
+1. Certifique-se de ter o **JDK 21** ou superior instalado.
 2. Clone o repositório: `git clone https://github.com/Danielsom12/Java-POO-2026.git`
 3. Importe o projeto em sua IDE de preferência (Eclipse, IntelliJ ou VS Code).
 4. Execute a classe `Tela.java` (localizada no pacote `Conversor`) para iniciar a aplicação.
