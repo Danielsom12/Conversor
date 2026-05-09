@@ -6,40 +6,35 @@
 
 # ⚡ S&B Convert (Eletron Converter & Ohm Calculator)
 
-[cite_start]O **S&B Convert** é uma solução de software desenvolvida para mitigar a ineficiência e a alta incidência de erros manuais no cálculo de grandezas elétricas[cite: 21, 22]. [cite_start]Criado para as disciplinas de **Programação Orientada a Objetos** e **Análise e Projeto de Sistemas** da UNISA, o sistema automatiza a conversão de prefixos métricos e a aplicação da Lei de Ohm com rigor técnico e acadêmico[cite: 5, 16, 17].
+O **S&B Convert** é um software em Java desenvolvido para mitigar a ineficiência e a alta incidência de erros manuais no cálculo de grandezas elétricas. Criado para as disciplinas de **Programação Orientada a Objetos** e **Análise e Projeto de Sistemas** da UNISA, o sistema automatiza a conversão de prefixos métricos e a aplicação da Lei de Ohm com rigor técnico e acadêmico.
 
 ---
 
 ## 🚀 Diferenciais e Funcionalidades
 
-* [cite_start]**Conversor de Escalas:** Transformação entre unidades de Micro (µ) até Mega (M) aplicando os fatores multiplicadores corretos conforme o Sistema Internacional (SI)[cite: 29].
-* [cite_start]**Calculadora de Lei de Ohm:** Cálculo automático de Tensão (V), Corrente (A), Resistência (Ω) e Potência (W) a partir de dois valores conhecidos[cite: 24, 29, 37].
-* [cite_start]**Rigor Acadêmico:** Processamento com precisão configurada para **10 casas decimais**, garantindo a integridade dos dados para projetos técnicos[cite: 27, 39].
-* [cite_start]**Gerenciamento de Histórico (CRUD):** Registro automático de operações com suporte para adição de comentários, exclusão de registros e exportação para arquivo `.txt`[cite: 30, 45, 46].
-* [cite_start]**Performance e Portabilidade:** Software incrivelmente leve, com consumo de memória RAM inferior a **50MB** e funcionamento 100% **offline**[cite: 26, 32, 41, 42].
+* **Conversor de Escalas:** Transformação entre unidades de Micro (µ) até Mega (M) aplicando fatores multiplicadores do Sistema Internacional (SI).
+* **Calculadora de Lei de Ohm:** Cálculo automático de Tensão (V), Corrente (A), Resistência (Ω) e Potência (W) a partir de dois valores conhecidos.
+* **Rigor Acadêmico:** Processamento com precisão de até **10 casas decimais**, garantindo a integridade dos dados para cálculos complexos.
+* **Gerenciamento de Histórico (CRUD):** Registro em tempo real com opções de adicionar comentários, remover itens, limpar a lista e exportar para arquivo `.txt`.
+* **Performance Otimizada:** Software incrivelmente leve, projetado para consumir menos de **50MB** de memória RAM.
 
 ---
 
 ## 🏗️ Arquitetura do Sistema
 
-[cite_start]O projeto foi estruturado sob o **Modelo Cascata (Waterfall)**, escolha estratégica devido à estabilidade dos requisitos baseados em leis fixas da física e eletrônica[cite: 49, 50].
-
-
-
-[Image of waterfall model software development life cycle]
-
+O projeto foi construído utilizando o **Modelo Cascata (Waterfall)**, garantindo uma estrutura linear e requisitos técnicos estáveis baseados nas leis da física e da eletrônica.
 
 ### Padrões de Projeto (Design Patterns)
 
-* [cite_start]**Singleton (`GerenciadorHistorico`):** Atua como a única memória centralizada da aplicação, garantindo que todas as telas compartilhem a mesma instância de dados[cite: 95, 130].
-* [cite_start]**Polimorfismo e Herança:** Utiliza a classe base `Conversor` para centralizar a lógica, enquanto subclasses especializadas (`Mega`, `Kilo`, `Mili`, `Micro`) tratam cada escala métrica de forma personalizada[cite: 91, 93, 127, 128].
-* [cite_start]**Observer (Listeners):** Sincroniza a interface gráfica com o histórico, assegurando que novos registros apareçam em tempo real na tabela visual[cite: 130, 230].
+* **Singleton (`GerenciadorHistorico`):** Garante que todas as telas compartilhem a mesma instância de memória centralizada para o histórico.
+* **Polimorfismo e Herança:** A classe base `Conversor` centraliza a lógica global, enquanto as subclasses (`Mega`, `Kilo`, `Mili`, `Micro`) aplicam seus fatores específicos.
+* **Observer (Listeners):** Sincroniza a interface gráfica com o motor de dados para atualizações instantâneas no histórico.
 
 ---
 
 ## 🎨 Identidade Visual
 
-[cite_start]O design utiliza uma paleta de cores "quente" e suave para reduzir a fadiga visual, com um fluxo de trabalho otimizado para concluir cálculos em no máximo 5 cliques[cite: 32].
+O projeto utiliza uma paleta de cores "quente" e suave para reduzir a fadiga visual, com um fluxo de trabalho otimizado para facilitar o uso acadêmico.
 
 | Elemento | Cor | Hexadecimal |
 | :--- | :--- | :--- |
@@ -52,27 +47,27 @@
 
 ## 🛠️ Tecnologias Utilizadas
 
-* [cite_start]**Linguagem:** Java 17+ [cite: 240]
-* [cite_start]**Biblioteca Gráfica:** Swing / AWT [cite: 231]
-* [cite_start]**Gestão de Projeto:** Quadro Kanban (Trello) para organização de tarefas e cronograma[cite: 56, 57].
-* [cite_start]**Formatação:** `java.text.DecimalFormat` e `java.time.LocalDateTime` para registros precisos[cite: 45].
+* **Linguagem:** Java 17+
+* **Biblioteca Gráfica:** Swing / AWT
+* **Arquitetura:** Programação Orientada a Objetos (POO)
+* **Gestão de Projeto:** Quadro Kanban (Trello)
 
 ---
 
 ## ⚙️ Como Executar
 
 1. Certifique-se de ter o **JDK 17** ou superior instalado.
-2. [cite_start]Clone o repositório: `git clone https://github.com/Danielsom12/Java-POO-2026.git` [cite: 242]
+2. Clone o repositório: `git clone https://github.com/Danielsom12/Java-POO-2026.git`
 3. Importe o projeto em sua IDE de preferência (Eclipse, IntelliJ ou VS Code).
-4. Execute a classe **`Tela.java`** (localizada no pacote `Conversor`) para iniciar a aplicação.
+4. Execute a classe `Tela.java` (localizada no pacote `Conversor`) para iniciar a aplicação.
 
 ---
 
 ## 👥 Integrantes do Grupo
 
-* [cite_start]**Daniel Sammartano** [cite: 7]
-* [cite_start]**Manoela Olim Boross** [cite: 7]
-* [cite_start]**Turma:** Engenharia de Software - 5º Semestre (UNISA) [cite: 8]
+* **Daniel Sammartano**
+* **Manoela Olim Boross**
+* **Turma:** Engenharia de Software - 5º Semestre (UNISA)
 
 ---
-*Desenvolvido com foco em precisão, usabilidade e autonomia técnica.*
+*Desenvolvido com foco em precisão, usabilidade e autonomia 100% offline.*
