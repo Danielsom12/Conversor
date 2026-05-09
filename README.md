@@ -4,6 +4,16 @@
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java 21
+* **Biblioteca Gráfica:** Swing / AWT
+* **Arquitetura:** Programação Orientada a Objetos (POO)
+* **Gestão de Projeto:** Quadro Kanban (Trello)
+
+
+---
+
 # ⚡ S&B Convert (Eletron Converter & Ohm Calculator)
 
 O **S&B Convert** é um software em Java desenvolvido para mitigar a ineficiência e a alta incidência de erros manuais no cálculo de grandezas elétricas. Criado para as disciplinas de **Programação Orientada a Objetos** e **Análise e Projeto de Sistemas** da UNISA, o sistema automatiza a conversão de prefixos métricos e a aplicação da Lei de Ohm com rigor técnico e acadêmico.
@@ -42,15 +52,6 @@ O projeto utiliza uma paleta de cores "quente" e suave para reduzir a fadiga vis
 | **Campos** | Amarelo Pastel | `#F2F58E` |
 | **Botão Principal** | Ouro | `#F5CC45` |
 | **Botão Secundário** | Laranja Outono | `#EBB657` |
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Linguagem:** Java 21
-* **Biblioteca Gráfica:** Swing / AWT
-* **Arquitetura:** Programação Orientada a Objetos (POO)
-* **Gestão de Projeto:** Quadro Kanban (Trello)
 
 ---
 
