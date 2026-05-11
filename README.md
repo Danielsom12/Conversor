@@ -5,13 +5,13 @@
 
 
 ---
-* **Link dos Diagramas:
+**Link dos Diagramas:**
 https://app.diagrams.net/#G1hROKAkgqtNUdFsNCblaknKJjJZTwFMMj#{%22pageId%22%3A%22ZfpAr39wWB8uVWxP9SLy%22}
 
-* **Documentação do Projeto:
+**Documentação do Projeto:**
 https://docs.google.com/document/d/1A2wMIPhPiMmkt90xg02JmvIB3o3XdmUMnpz_CZDe1JU/edit?tab=t.0
 
-* **Quadro de Atividades no Trello:
+**Quadro de Atividades no Trello:**
 https://trello.com/invite/b/69c83c142c4a267e562ee9a3/ATTIe02e7cb8e95e77a689d66c1ffa063eddB8123750/sb-convert
 ---
 
